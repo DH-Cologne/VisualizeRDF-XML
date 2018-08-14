@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ngsample": {
+    "VisualizeRDF-XML": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ngsample",
+            "outputPath": "dist/VisualizeRDF-XML",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -51,18 +51,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ngsample:build"
+            "browserTarget": "VisualizeRDF-XML:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "ngsample:build:production"
+              "browserTarget": "VisualizeRDF-XML:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ngsample:build"
+            "browserTarget": "VisualizeRDF-XML:build"
           }
         },
         "test": {
@@ -96,7 +96,7 @@
         }
       }
     },
-    "ngsample-e2e": {
+    "VisualizeRDF-XML-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -104,7 +104,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "ngsample:serve"
+            "devServerTarget": "VisualizeRDF-XML:serve"
           }
         },
         "lint": {
@@ -119,5 +119,5 @@
       }
     }
   },
-  "defaultProject": "ngsample"
+  "defaultProject": "VisualizeRDF-XML"
 }
