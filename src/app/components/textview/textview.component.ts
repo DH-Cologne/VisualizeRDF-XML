@@ -22,16 +22,10 @@ export class TextviewComponent implements OnInit {
       .subscribe(data => {
 
         this.parser.parseString(data, function (err, result) {
-
-          console.log(JSON.stringify(result));
           console.log(result);
         }, function(err) {
           console.log(err);
         });
-
       });
-
-    console.log(this.parser);
   }
-
 }
