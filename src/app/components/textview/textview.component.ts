@@ -1,6 +1,4 @@
-import {Component, OnInit} from '@angular/core';
-import {HttpClient} from '@angular/common/http';
-import {Parser} from 'xml2js';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-textview',
@@ -9,23 +7,9 @@ import {Parser} from 'xml2js';
 })
 export class TextviewComponent implements OnInit {
 
-  private parser;
-
-  constructor(private http: HttpClient) {
-  }
+  constructor() { }
 
   ngOnInit() {
-
-    this.parser = new Parser();
-
-    this.http.get('./assets/wisski_test.xml', {responseType: 'text'})
-      .subscribe(data => {
-
-        this.parser.parseString(data, function (err, result) {
-          console.log(result);
-        }, function(err) {
-          console.log(err);
-        });
-      });
   }
+
 }

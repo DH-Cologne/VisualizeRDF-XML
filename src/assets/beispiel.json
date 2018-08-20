@@ -1,0 +1,51 @@
+{
+  "nodes": [
+    {
+      "link": "http://projects.hki.uni-koeln.de/wisski/wisski/navigate/145/view",
+      "id": 1
+    },
+    {
+      "name": "drupal_id",
+      "link": "http://projects.hki.uni-koeln.de/wisski/content/5aaa6fe23424e",
+      "id": 2
+    },
+    {
+      "link": "http://projects.hki.uni-koeln.de/wisski/content/5aaa6fe23424e",
+      "id": 3
+    },
+    {
+      "link": "http://projects.hki.uni-koeln.de/wisski/content/5ae718f550e3d",
+      "id": 4
+    },
+    {
+      "link": "http://erlangen-crm.org/170309/E35_Title",
+      "id": 5
+    },
+    {
+      "name": "Jewelery in vasnave",
+      "id": 6
+    }
+  ],
+  "links": [
+    {
+      "source": 1,
+      "target": 2,
+      "type": "originatesFrom"
+    },
+    {
+      "source": 1,
+      "target": 3,
+      "type": "owl:sameAs"
+    },
+    {
+      "source": 4,
+      "target": 5,
+      "type": "rdf:type"
+    },
+    {
+      "source": 4,
+      "target": 6,
+      "type": "ecrm:P3_has_note"
+    }
+  ]
+}
