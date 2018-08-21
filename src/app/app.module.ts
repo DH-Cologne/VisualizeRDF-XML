@@ -4,10 +4,10 @@ import {NgModule} from '@angular/core';
 import {AppComponent} from './app.component';
 
 import {TextviewComponent} from "./components/textview/textview.component";
-import { GraphviewComponent } from './components/graphview/graphview.component';
+import {GraphviewComponent} from './components/graphview/graphview.component';
 
-import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
+import {FormsModule} from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
 
 // import { D3Service, D3_DIRECTIVES } from './components/graphview/d3';
 // import { GraphComponent } from './components/graphview/visuals/graph/graph.component';
@@ -26,9 +26,10 @@ import { HttpModule } from '@angular/http';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
