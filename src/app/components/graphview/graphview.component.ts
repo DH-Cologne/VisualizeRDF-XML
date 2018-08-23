@@ -69,9 +69,9 @@ export class GraphviewComponent {
 
 
     const simulation = d3.forceSimulation()
-      .force('link', d3.forceLink().id((d: any) => d.id).distance(100).strength(1))
-      // .force('charge', d3.forceManyBody())
-      .force('center', d3.forceCenter(width / 2, height / 2));
+      .force('link', d3.forceLink().id((d: any) => d.id).distance(100).strength(2))
+      .force('center', d3.forceCenter(width / 2, height / 2))
+      .force('collision', d3.forceCollide(50));
 
 
     d3.json('assets/beispiel.json') 
@@ -164,7 +164,7 @@ export class GraphviewComponent {
             
               edgepaths.attr('d', (d: any) => 'M ' + d.source.x + ' ' + d.source.y + ' L ' + d.target.x + ' ' + d.target.y);
         
-            
+              // simulation.stop();
             }
       }
     
@@ -172,12 +172,14 @@ export class GraphviewComponent {
 
 
     function dragstarted(d) {
-      if (!d3.event.active) { simulation.alphaTarget(0.3).restart(); }
+      simulation.restart();
+      // if (!d3.event.active) { simulation.alphaTarget(0.3).restart(); }
       d.fx = d.x;
       d.fy = d.y;
     }
 
     function dragged(d) {
+      simulation.restart();
       d.fx = d3.event.x;
       d.fy = d3.event.y;
     }
