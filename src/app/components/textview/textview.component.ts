@@ -28,12 +28,9 @@ export class TextviewComponent implements OnInit {
           // --------------------------------------------
           // --------------------------------------------
           // --------------------------------------------
-          
+        
           // Konsole zeigt Objekte
           console.log(result["rdf:RDF"]["rdf:Description"]);          
-          // var string_json = JSON.stringify(result); 
-          // console.log(string_json);
-
 
           // --------------------------------------------
           // --------------------------------------------
@@ -41,29 +38,67 @@ export class TextviewComponent implements OnInit {
 
           // Neues JSON-Objekt -- für d3-Funktionen
           var beispiel_json = {"prefixes":[],"nodes":[],"links":[]};
-          // 
-          var prefix = {};
-          var node = {};
-          var link = {};
-          // 
           console.log(beispiel_json);
 
 
           // --------------------------------------------
           // --------------------------------------------
           // --------------------------------------------
-          
           // Inhalte aus 'result'-Objekt in d3_json_Format überführen
           // for() - Schleifen
-          prefix["name"]='someValue';
-          prefix["id"]= 0.1;
-          beispiel_json.prefixes[0]=prefix;
-          console.log(beispiel_json);
-          // for (var i = 0; i < $scope.stocks.length; i++) {
-          //   $scope.data[0].push($scope.stocks[i].percentage1)
-          //   $scope.data[1].push($scope.stocks[i].percentage2)
-          // }
 
+
+          var node_id = 0;
+          // var prefix_id = 0;
+          var check = 1;
+
+          for (var i = 0; i < result["rdf:RDF"]["rdf:Description"].length; i++) {
+            
+            // :::::
+            // NODES // LINKS (// PREFIXES)
+            // :::::
+
+            var node = {};
+            // var link = {};
+            // var prefix = {};
+            
+            var about = result["rdf:RDF"]["rdf:Description"][i];
+            
+
+            // ---------
+            // Node -- $
+            // ---------
+            if (about["$"] != null){
+              node["link"] = about["$"]["rdf:about"];
+              node["name"] = about["$"]["rdf:about"];
+              node["id"] = node_id;
+
+              // Check if Node is already in Nodes
+              for (var i = 0; i < node_id; i++){
+                if (beispiel_json.nodes[i]["name"] == node["name"]){
+                  check = 0;
+                }
+              }
+              //Fill beispiel_json.nodes with node
+              if (check != 0){
+                beispiel_json.nodes[node_id] = node;
+                node_id++;
+                var node = {};
+              }
+              check = 1;
+            }
+            
+
+
+
+          }
+
+          // prefix["name"]='someValue';
+          // prefix["id"]= 0.1;
+          // beispiel_json.prefixes[0]=prefix;
+          
+          console.log(beispiel_json);
+        
 
           // --------------------------------------------
           // --------------------------------------------
