@@ -57,37 +57,36 @@ export class TextviewComponent implements OnInit {
             // :::::
             // NODES // LINKS (// PREFIXES)
             // :::::
-
             var node = {};
-            // var link = {};
-            // var prefix = {};
-            
             var about = result["rdf:RDF"]["rdf:Description"][i];
-            
 
-            // ---------
+            
             // Node -- $
             // ---------
             if (about["$"] != null){
               node["link"] = about["$"]["rdf:about"];
               node["name"] = about["$"]["rdf:about"];
               node["id"] = node_id;
-
+              
               // Check if Node is already in Nodes
-              for (var i = 0; i < node_id; i++){
-                if (beispiel_json.nodes[i]["name"] == node["name"]){
-                  check = 0;
-                }
-              }
-              //Fill beispiel_json.nodes with node
-              if (check != 0){
+                beispiel_json.nodes[node_id] = node;
+                node_id++;
+                
+                
+                var node = {};
+            }
+
+            // ---------
+            // Node -- originatesFrom
+            // ---------
+            if (about["originatesFrom"] != null){
+              node["link"] = about["originatesFrom"]["$"]["xmlns"];
+              node["name"] = about["originatesFrom"]["_"];
+              node["id"] = node_id;
                 beispiel_json.nodes[node_id] = node;
                 node_id++;
                 var node = {};
-              }
-              check = 1;
             }
-            
 
 
 
