@@ -1,5 +1,4 @@
-import {Component, OnInit} from '@angular/core';
-import {DataService} from "../../services/data/data.service";
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-textview',
@@ -7,11 +6,6 @@ import {DataService} from "../../services/data/data.service";
   styleUrls: ['./textview.component.css']
 })
 export class TextviewComponent {
-
-  private parser;
-
-  constructor(private dataService: DataService) {
-  }
 
   
 }
