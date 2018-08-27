@@ -8,6 +8,10 @@ import {GraphviewComponent} from './components/graphview/graphview.component';
 
 import {FormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
+import {XmlviewComponent} from './components/xmlview/xmlview.component';
+
+import { HighlightModule } from 'ngx-highlightjs';
+import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
 
 // import { D3Service, D3_DIRECTIVES } from './components/graphview/d3';
 // import { GraphComponent } from './components/graphview/visuals/graph/graph.component';
@@ -20,13 +24,16 @@ import {HttpClientModule} from '@angular/common/http';
     // ...SHARED_VISUALS,
     // ...D3_DIRECTIVES,
     TextviewComponent,
-    GraphviewComponent
+    GraphviewComponent,
+    XmlviewComponent
 
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    NgbModule,
+    HighlightModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

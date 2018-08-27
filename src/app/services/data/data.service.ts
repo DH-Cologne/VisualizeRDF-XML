@@ -8,6 +8,8 @@ import {Parser} from 'xml2js';
 })
 export class DataService {
 
+  public textFile: string;
+
   constructor(private http: HttpClient) {
   }
 
@@ -16,6 +18,7 @@ export class DataService {
     return new Promise<any>((resolve, reject) => {
 
       this.http.get(url, {responseType: 'text'}).subscribe(data => {
+        this.textFile = data;
         resolve(data);
       }, error => {
         reject(error);
