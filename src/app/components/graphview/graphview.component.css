@@ -16,5 +16,8 @@ div#container {
   height: 80%;
   width: 100%; 
   overflow: scroll;
-  overflow-y: scroll;
  }
+
+.node {
+  cursor: pointer;
+}
