@@ -74,7 +74,7 @@ export class GraphviewComponent {
       .force('collision', d3.forceCollide(50));
 
 
-    d3.json('assets/beispiel.json') 
+    d3.json('assets/filename.json') 
     .then((data: any) => {
       update(data.links, data.nodes)});
 
