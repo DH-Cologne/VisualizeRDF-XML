@@ -1,4 +1,4 @@
-import {Injectable} from '@angular/core';
+import {EventEmitter, Injectable} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 
 import {Parser} from 'xml2js';
@@ -8,17 +8,24 @@ import {Parser} from 'xml2js';
 })
 export class DataService {
 
+  dataUpdated = new EventEmitter();
+
   public textFile: string;
 
   constructor(private http: HttpClient) {
   }
 
+  public getTextFileContent(): string {
+    return this.textFile;
+  }
+
   public loadTextFile(url: string): Promise<any> {
 
-    return new Promise<any>((resolve, reject) => {
+    return new Promise<string>((resolve, reject) => {
 
       this.http.get(url, {responseType: 'text'}).subscribe(data => {
         this.textFile = data;
+        this.dataUpdated.emit(data);
         resolve(data);
       }, error => {
         reject(error);
@@ -30,9 +37,9 @@ export class DataService {
 
     return new Promise<any>((resolve, reject) => {
 
-      this.loadTextFile(xmlUrl).then(function(data) {
+      this.loadTextFile(xmlUrl).then(function (data) {
 
-        let parser = new Parser({explicitArray : false});
+        let parser = new Parser({explicitArray: false});
 
         parser.parseString(data, function (err, result) {
 
@@ -43,7 +50,7 @@ export class DataService {
 
           resolve(result);
         });
-      }, function(error) {
+      }, function (error) {
         reject(error);
       });
     });

@@ -15,5 +15,11 @@ export class XmlviewComponent implements OnInit {
 
   ngOnInit() {
 
+    this.dataService.dataUpdated.subscribe(
+      (lang) => {
+        this.markup = this.dataService.getTextFileContent();
+      }
+    );
+
   }
 }

@@ -10,7 +10,6 @@ import {FormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import {XmlviewComponent} from './components/xmlview/xmlview.component';
 
-import { HighlightModule } from 'ngx-highlightjs';
 import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
 
 // import { D3Service, D3_DIRECTIVES } from './components/graphview/d3';
@@ -32,8 +31,7 @@ import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
     BrowserModule,
     FormsModule,
     HttpClientModule,
-    NgbModule,
-    HighlightModule.forRoot()
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
