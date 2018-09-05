@@ -74,7 +74,7 @@ export class GraphviewComponent {
       .force('collision', d3.forceCollide(50));
 
 
-    d3.json('assets/filename.json') 
+    d3.json('assets/beispiel.json') 
     .then((data: any) => {
       update(data.links, data.nodes)});
 
@@ -132,8 +132,10 @@ export class GraphviewComponent {
           );
         
         node.append("circle")
-            .attr("r", 5)
-            .style("fill", (d:any, i:any) => color(i))
+            .attr("r", 10)
+            // .style("fill", (d:any, i:any) => color(i))
+            .style("fill", (d:any, i:any) => color(d.prefix))
+            .style("opacity", 5)
 
         node.append("title")
             .text( (d: any) => d.link);
