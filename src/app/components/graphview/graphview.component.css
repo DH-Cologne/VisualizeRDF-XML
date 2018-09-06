@@ -12,12 +12,12 @@
   cursor: pointer;
 }
 
-div#container {
-  height: 80%;
-  width: 100%; 
-  overflow: scroll;
- }
 
 .node {
   cursor: pointer;
+}
+
+svg{
+  width: 100%;
+  height: 100%;
 }

@@ -16,26 +16,23 @@ export class AppComponent implements OnInit {
 
     this.dataService.xmlToJSON('./assets/wisski_test.xml').then(function (result) {
 
-      var node_id = 0;
+      const node_id = 0;
 
       // JSON --- d3
-      var beispiel_json = {"prefixes":[],"nodes":[],"links":[]};
+      const beispiel_json = {"prefixes":[],"nodes":[],"links":[]};
 
 
-      // -------------------------------------------------------------------------------------------
       // ---------------------------------------V2--------------------------------------------------
-      // -------------------------------------------------------------------------------------------
-
       // Keylist
-      var general_Keylist =[];
+      const general_Keylist =[];
 
       result["rdf:RDF"]["rdf:Description"].forEach(about => { 
         console.log(about);        
 
-        var keylist = [];  
+        const keylist = [];  
         keylist.push(Object.keys(about));
         
-        for (var i=0; i < keylist[0].length; i++){
+        for (let i=0; i < keylist[0].length; i++){
             keylist.push(Object.keys(about[keylist[0][i]]));
         }
         console.log(keylist);
@@ -54,8 +51,8 @@ export class AppComponent implements OnInit {
 
       // result["rdf:RDF"]["rdf:Description"].forEach(about => {
         
-      //   var sourceID;
-      //   var typeID;
+      //   const sourceID;
+      //   const typeID;
 
       
 
@@ -65,12 +62,12 @@ export class AppComponent implements OnInit {
       //   // $
       //   // 
       //   if (about["$"] != null){
-      //     var node = {};
+      //     const node = {};
       //     node["link"] = about["$"]["rdf:about"];
       //     node["name"] = about["$"]["rdf:about"];
           
       //     // Check
-      //     var y = beispiel_json.nodes[node_id];
+      //     const y = beispiel_json.nodes[node_id];
       //     // + LINK
       //     typeID = "$";
       //     sourceID = node_id;
@@ -85,12 +82,12 @@ export class AppComponent implements OnInit {
       //   // originatesFrom
       //   // 
       //   if (about["originatesFrom"] != null){
-      //     var node = {};
+      //     const node = {};
       //     node["link"] = about["originatesFrom"]["$"]["xmlns"];
       //     node["name"] = about["originatesFrom"]["_"];
           
       //     // Check
-      //     var y = beispiel_json.nodes[node_id];
+      //     const y = beispiel_json.nodes[node_id];
       //     // + LINK
       //     typeID = "originatesFrom";
       //     checkDouble(node, beispiel_json, node_id, sourceID, typeID);
@@ -105,14 +102,14 @@ export class AppComponent implements OnInit {
       //   // 
       //   if (about["owl:sameAs"] != null){
       //     if (about["owl:sameAs"] instanceof Array) {
-      //       for (var i=0; i < about["owl:sameAs"].length; i++){
+      //       for (const i=0; i < about["owl:sameAs"].length; i++){
       //         // console.log(about["owl:sameAs"][i]);
-      //         var node = {};
+      //         const node = {};
       //         node["link"] = about["owl:sameAs"][i]["$"]["rdf:resource"];
       //         node["name"] = about["owl:sameAs"][i]["$"]["rdf:resource"];
               
       //         // Check
-      //         var y = beispiel_json.nodes[node_id];
+      //         const y = beispiel_json.nodes[node_id];
       //         // + LINK
       //         typeID = "owl:sameAs";
       //         checkDouble(node, beispiel_json, node_id, sourceID, typeID);
@@ -123,11 +120,11 @@ export class AppComponent implements OnInit {
       //       }
       //     } 
       //     else {
-      //       var node = {};
+      //       const node = {};
       //       node["link"] = about["owl:sameAs"]["$"]["rdf:resource"];
       //       node["name"] = about["owl:sameAs"]["$"]["rdf:resource"];
       //       // Check
-      //       var y = beispiel_json.nodes[node_id];
+      //       const y = beispiel_json.nodes[node_id];
       //       // + LINK
       //       typeID = "owl:sameAs";
       //       checkDouble(node, beispiel_json, node_id, sourceID, typeID);
@@ -142,13 +139,13 @@ export class AppComponent implements OnInit {
       //   // 
       //   if (about["rdf:type"] != null){
       //     if (about["rdf:type"] instanceof Array) {
-      //       for (var i=0; i < about["rdf:type"].length; i++){
-      //         var node = {};
+      //       for (const i=0; i < about["rdf:type"].length; i++){
+      //         const node = {};
       //         node["link"] = about["rdf:type"][i]["$"]["rdf:resource"];
       //         node["name"] = about["rdf:type"][i]["$"]["rdf:resource"];                  
 
       //         // Check
-      //         var y = beispiel_json.nodes[node_id];
+      //         const y = beispiel_json.nodes[node_id];
       //         // + LINK
       //         typeID = "rdf:type";
       //         checkDouble(node, beispiel_json, node_id, sourceID, typeID);
@@ -159,12 +156,12 @@ export class AppComponent implements OnInit {
       //       }
       //     } 
       //     else {
-      //       var node = {};
+      //       const node = {};
       //       node["link"] = about["rdf:type"]["$"]["rdf:resource"];
       //       node["name"] = about["rdf:type"]["$"]["rdf:resource"];
             
       //       // Check
-      //       var y = beispiel_json.nodes[node_id];
+      //       const y = beispiel_json.nodes[node_id];
       //       // + LINK
       //       typeID = "rdf:type";
       //       checkDouble(node, beispiel_json, node_id, sourceID, typeID);
@@ -178,12 +175,12 @@ export class AppComponent implements OnInit {
       //   // ecrm:P3_has_note
       //   // 
       //   if (about["ecrm:P3_has_note"] != null){
-      //     var node = {};
+      //     const node = {};
       //     node["link"] = about["ecrm:P3_has_note"];
       //     node["name"] = about["ecrm:P3_has_note"];
 
       //     // Check
-      //     var y = beispiel_json.nodes[node_id];
+      //     const y = beispiel_json.nodes[node_id];
       //     // + LINK
       //     typeID = "ecrm:P3_has_note";
       //     checkDouble(node, beispiel_json, node_id, sourceID, typeID);
@@ -196,12 +193,12 @@ export class AppComponent implements OnInit {
       //   // ecrm:P87_is_identified_by
       //   // 
       //   if (about["ecrm:P87_is_identified_by"] != null){
-      //     var node = {};
+      //     const node = {};
       //     node["link"] = about["ecrm:P87_is_identified_by"]["$"]["rdf:resource"];
       //     node["name"] = about["ecrm:P87_is_identified_by"]["$"]["rdf:resource"];
 
       //     // Check
-      //     var y = beispiel_json.nodes[node_id];
+      //     const y = beispiel_json.nodes[node_id];
       //     // + LINK
       //     typeID = "ecrm:P87_is_identified_by";
       //     checkDouble(node, beispiel_json, node_id, sourceID, typeID);
@@ -214,12 +211,12 @@ export class AppComponent implements OnInit {
       //   // ecrm:P7_took_place_at
       //   // 
       //   if (about["ecrm:P7_took_place_at"] != null){
-      //     var node = {};
+      //     const node = {};
       //     node["link"] = about["ecrm:P7_took_place_at"]["$"]["rdf:resource"];
       //     node["name"] = about["ecrm:P7_took_place_at"]["$"]["rdf:resource"];
 
       //     // Check
-      //     var y = beispiel_json.nodes[node_id];
+      //     const y = beispiel_json.nodes[node_id];
       //     // + LINK
       //     typeID = "ecrm:P7_took_place_at";
       //     checkDouble(node, beispiel_json, node_id, sourceID, typeID);
@@ -232,12 +229,12 @@ export class AppComponent implements OnInit {
       //   // ecrm:P90_has_value
       //   // 
       //   if (about["ecrm:P90_has_value"] != null){
-      //     var node = {};
+      //     const node = {};
       //     node["link"] = about["ecrm:P90_has_value"];
       //     node["name"] = about["ecrm:P90_has_value"];
           
       //     // Check
-      //     var y = beispiel_json.nodes[node_id];
+      //     const y = beispiel_json.nodes[node_id];
       //     // + LINK
       //     typeID = "ecrm:P90_has_value";
       //     checkDouble(node, beispiel_json, node_id, sourceID, typeID);
@@ -278,8 +275,8 @@ export class AppComponent implements OnInit {
 
 
 // --------------------------------------------
-function saveText(text, filename){
-  var a = document.createElement('a');
+function saveText(text: string, filename: string) {
+  const a = document.createElement('a');
   a.setAttribute('href', 'data:text/plain;charset=utf-u,'+encodeURIComponent(text));
   a.setAttribute('download', filename);
   a.click()
@@ -293,16 +290,16 @@ function checkDouble(node, beispiel_json, node_id, sourceID, typeID){
   node["id"] = node_id;
 
 
-  var check = 1;
+  let check = 1;
   beispiel_json.nodes.forEach(element => {
     if (element["name"] == node["name"]) {
       check = 0;
 
       // LINK -- V1
       if (typeID != "$"){ 
-        var targetID;
+        let targetID;
         targetID = element["id"];
-        var link = {};
+        const link = {};
         link["source"] = sourceID;
         link["target"] = targetID;
         link["type"] = typeID;
@@ -316,9 +313,9 @@ function checkDouble(node, beispiel_json, node_id, sourceID, typeID){
     
     // LINK -- V2
     if (typeID != "$"){ 
-      var targetID;
+      let targetID;
       targetID = node["id"];
-      var link = {};
+      const link = {};
       link["source"] = sourceID;
       link["target"] = targetID;
       link["type"] = typeID;
