@@ -30,7 +30,7 @@ export class GraphviewComponent {
       .attr("class", "everything");
 
 
-    d3.json('assets/beispiel.json') 
+    d3.json('assets/vorher.json') 
     .then((data: any) => {
       update(data.links, data.nodes, svg)});
 
