@@ -11,30 +11,35 @@ import * as d3 from 'd3';
   styleUrls: ['./graphview.component.css']
 })
 export class GraphviewComponent {
+
+  constructor() {
+  }
+  
   ngOnInit() {
 
+    // prepare <svg> for d3
     const svg = d3.select("svg"),
           width = +svg.attr("width"),
           height = +svg.attr("height"),
           color = d3.scaleOrdinal(d3.schemeCategory10);
 
-
+    // d3 Simulation
     const simulation = d3.forceSimulation()
       .force('link', d3.forceLink().id((d: any) => d.id).distance(100).strength(2))
       .force('center', d3.forceCenter(width / 2, height / 2))
       .force('collision', d3.forceCollide(100));
 
-
     //add encompassing group for the zoom 
     const g = svg.append("g")
       .attr("class", "everything");
 
-
+    // read JSON-Data
     d3.json('assets/beispiel.json') 
     .then((data: any) => {
-      update(data.links, data.nodes, svg)});
+      update(data.links, data.nodes, svg)
+    });
 
-
+    // Update Nodes and Links
     function update(links, nodes, svg) {
 
       const link = g.selectAll(".link")
@@ -87,14 +92,12 @@ export class GraphviewComponent {
 
       node.append("circle")
           .attr("r", 10)
-          // .style("fill", (d:any, i:any) => color(i))
           .style("fill", (d:any, i:any) => color (d.prefix))
           .style("opacity", 5)
       node.append("title")
           .text( (d: any) => d.link);
       node.append("text")
           .attr("dy", -3)
-          // .text( (d:any) => d.name + ":" + d.label);
           .text( (d:any) => d.name);
 
       simulation
@@ -108,6 +111,7 @@ export class GraphviewComponent {
         .on("zoom", zoom_actions);
       zoom_handler(svg);    
 
+      // tick function
       function ticked() {
         link
           .attr('x1', (d: any) =>  d.source.x)
@@ -121,7 +125,7 @@ export class GraphviewComponent {
         }
     }
 
-    //Zoom functions 
+    //zoom functions 
     function zoom_actions(){
       g.attr("transform", d3.event.transform)
     }
@@ -137,8 +141,6 @@ export class GraphviewComponent {
       d.fx = d3.event.x;
       d.fy = d3.event.y;
     }
-
-
 
   }
 }
