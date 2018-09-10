@@ -2,12 +2,15 @@ import { Component, OnInit } from '@angular/core';
 import { DataService } from "./services/data/data.service";
 import { ConvertActionBindingResult } from '@angular/compiler/src/compiler_util/expression_converter';
 
+
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
+
 
   constructor(private dataService: DataService) {
   }
@@ -17,41 +20,41 @@ export class AppComponent implements OnInit {
     this.dataService.xmlToJSON('./assets/wisski_test.xml').then(function (result) {
 
       // Keys
-      let keys = addKeylist(result);
+      const keys = addKeylist(result);
       console.log(keys);
 
       // keysNodeLName
-      let keysNodeName = addKeylistRaw (result, keys);
+      const keysNodeName = addKeylistRaw(result, keys);
       console.log(keysNodeName);
 
-      let keysNodeLink = addKeylistRaw (result, keys);
+      const keysNodeLink = addKeylistRaw(result, keys);
       console.log(keysNodeLink);
 
-      let d3Json = jsonToD3(result, keys, keysNodeName, keysNodeLink);
+      const d3Json = jsonToD3(result, keys, keysNodeName, keysNodeLink);
       console.log(d3Json);
+
 
     }, function (error) {
     });
   }
+
 }
 
-
-
 // --------------------------------------------------------------------------------------------
-function addKeylist(result){
+function addKeylist(result) {
 
   const content = result["rdf:RDF"]["rdf:Description"];
   let keylist = [];
 
   content.map(about => {
-    Object.keys(about).map(key => { 
-      for (let i = 0; i < keylist .length; i++){
-        if (key == keylist [i]){
+    Object.keys(about).map(key => {
+      for (let i = 0; i < keylist.length; i++) {
+        if (key == keylist[i]) {
           return;
         }
       }
       keylist.push(key);
-     });
+    });
   });
 
   return keylist;
@@ -59,27 +62,27 @@ function addKeylist(result){
 
 
 // --------------------------------------------------------------------------------------------
-function addKeylistRaw (result, keyList) {
+function addKeylistRaw(result, keyList) {
 
   const content = result["rdf:RDF"]["rdf:Description"];
   let keysRaw = [];
   let x = 0;
 
   content.map(about => {
-    Object.keys(about).map(key => { 
-      if (about[keyList[x]] == about[key]){
+    Object.keys(about).map(key => {
+      if (about[keyList[x]] == about[key]) {
 
         let keyName = [];
 
         // nur für 2 Reihen, kann/muss noch verbessert werden
         let variable = 0;
-        if (Object.keys(about[keyList[x]])[1]){
+        if (Object.keys(about[keyList[x]])[1]) {
           variable = 1;
         }
         keyName.push(Object.keys(about[keyList[x]])[0]);
 
-        if (keyName[0] != "0"){
-          if (about[keyList[x]][keyName[0]] && Object.keys(about[keyList[x]][keyName[0]])[0] != "0"){
+        if (keyName[0] != "0") {
+          if (about[keyList[x]][keyName[0]] && Object.keys(about[keyList[x]][keyName[0]])[0] != "0") {
             Object.keys(about[keyList[x]][keyName[0]]).map(key => {
               keyName.push(key);
             });
@@ -87,7 +90,7 @@ function addKeylistRaw (result, keyList) {
           keysRaw[x] = keyName;
         }
         else {
-          keysRaw[x]= [];
+          keysRaw[x] = [];
         }
         x++;
       }
@@ -163,27 +166,27 @@ function jsonToD3(result, keys, keysNodeName, keysNodeLink) {
           for (let k = 0; k < keysNodeName[i].length; k++) {
             node["name"] = node["name"][keysNodeName[i][k]];
           }
-            // ADD NODE
-            // if node already exists
-            let check = 1;
-            d3Json.nodes.map(d3Node => {
-              if (d3Node["name"] == node["name"]) {
-                check = 0;
-                node = d3Node;
-              }
-            })
-            // if node does not exist
-            if (check) {
-              node["id"] = node_id;
-              d3Json.nodes[node_id] = node;
-              node_id++;
+          // ADD NODE
+          // if node already exists
+          let check = 1;
+          d3Json.nodes.map(d3Node => {
+            if (d3Node["name"] == node["name"]) {
+              check = 0;
+              node = d3Node;
             }
-            // sourceID
-            if (keys[i] == "$") {
-              sourceID = node["id"];
-            }
-            // ADD LINK  
-            addLinks(node, sourceID, d3Json, keys[i]);
+          })
+          // if node does not exist
+          if (check) {
+            node["id"] = node_id;
+            d3Json.nodes[node_id] = node;
+            node_id++;
+          }
+          // sourceID
+          if (keys[i] == "$") {
+            sourceID = node["id"];
+          }
+          // ADD LINK  
+          addLinks(node, sourceID, d3Json, keys[i]);
         }
       }
     }
@@ -209,9 +212,9 @@ function addLinks(node, sourceID, d3Json, key) {
 
 
 
+
 // --------------------------------------------------------------------------------------------
 // Keylist
-
 // let keys = [];
 // keys.push("$");
 // keys.push("originatesFrom");

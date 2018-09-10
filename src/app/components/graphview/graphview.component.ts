@@ -1,6 +1,8 @@
 import{ Component, OnInit, ViewEncapsulation } from '@angular/core';
 import * as d3 from 'd3';
 
+import {AppComponent} from '../../app.component';
+
 // Help:
 // https://bl.ocks.org/puzzler10/4438752bb93f45dc5ad5214efaa12e4a
 
@@ -12,7 +14,7 @@ import * as d3 from 'd3';
 })
 export class GraphviewComponent {
 
-  constructor() {
+  constructor(private appComponent: AppComponent) {
   }
   
   ngOnInit() {
