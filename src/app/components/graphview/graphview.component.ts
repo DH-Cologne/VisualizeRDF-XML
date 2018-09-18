@@ -3,6 +3,9 @@ import * as d3 from 'd3';
 
 import {AppComponent} from '../../app.component';
 
+
+import { JsonToD3Service } from "../../services/jsonToD3/json-to-d3.service";
+
 // Help:
 // https://bl.ocks.org/puzzler10/4438752bb93f45dc5ad5214efaa12e4a
 
@@ -14,7 +17,7 @@ import {AppComponent} from '../../app.component';
 })
 export class GraphviewComponent {
 
-  constructor(private appComponent: AppComponent) {
+  constructor(private appComponent: AppComponent, private jsonToD3Service: JsonToD3Service) {
   }
   
   ngOnInit() {
@@ -36,10 +39,17 @@ export class GraphviewComponent {
       .attr("class", "everything");
 
     // read JSON-Data
-    d3.json('assets/beispiel.json') 
-    .then((data: any) => {
-      update(data.links, data.nodes, svg)
+    // d3.json('assets/beispiel.json') 
+    // .then((data: any) => {
+    //   update(data.links, data.nodes, svg)
+    // });
+
+    // // autoD3JsonData
+    this.jsonToD3Service.myD3PromiseObject.then(function(value) {
+
+      update(value.links, value.nodes, svg)
     });
+
 
     // Update Nodes and Links
     function update(links, nodes, svg) {
@@ -111,7 +121,7 @@ export class GraphviewComponent {
       //add zoom capabilities 
       const zoom_handler = d3.zoom()
         .on("zoom", zoom_actions);
-      zoom_handler(svg);    
+      zoom_handler(svg);
 
       // tick function
       function ticked() {
