@@ -5,6 +5,7 @@ import {AppComponent} from '../../app.component';
 
 
 import { JsonToD3Service } from "../../services/jsonToD3/json-to-d3.service";
+import { event } from 'd3';
 
 // Help:
 // https://bl.ocks.org/puzzler10/4438752bb93f45dc5ad5214efaa12e4a
@@ -27,6 +28,15 @@ export class GraphviewComponent {
           width = +svg.attr("width"),
           height = +svg.attr("height"),
           color = d3.scaleOrdinal(d3.schemeCategory10);
+    svg.attr("id", "svg")
+    svg.call(d3.zoom()
+              .scaleExtent([0.1, 2.5])
+              .on("zoom", zoom_actions));
+
+    //add encompassing group for the zoom 
+    const g = svg.append("g")
+          .attr("class", "everything")
+          .attr("id", "everythingZoom");
 
     // d3 Simulation
     const simulation = d3.forceSimulation()
@@ -34,25 +44,21 @@ export class GraphviewComponent {
       .force('center', d3.forceCenter(width / 2, height / 2))
       .force('collision', d3.forceCollide(100));
 
-    //add encompassing group for the zoom 
-    const g = svg.append("g")
-      .attr("class", "everything");
+    // // autoD3JsonData
+    this.jsonToD3Service.myD3PromiseObject.then(function(value) {
 
+      update(value.links, value.nodes, svg, g)
+    });
+    // Alternative...
     // read JSON-Data
     // d3.json('assets/beispiel.json') 
     // .then((data: any) => {
     //   update(data.links, data.nodes, svg)
     // });
 
-    // // autoD3JsonData
-    this.jsonToD3Service.myD3PromiseObject.then(function(value) {
-
-      update(value.links, value.nodes, svg)
-    });
-
-
+    
     // Update Nodes and Links
-    function update(links, nodes, svg) {
+    function update(links, nodes, svg, g) {
 
       const link = g.selectAll(".link")
         .data(links)
@@ -96,32 +102,36 @@ export class GraphviewComponent {
         .enter()
         .append("g")
         .attr("class", "node")
+        .attr("id", (d:any, i:any) => "node" + i)
         .call(d3.drag()
                 .on("start", dragstarted)
                 .on("drag", dragged)
                 //.on("end", dragended)
-        );
-
+              );
       node.append("circle")
           .attr("r", 10)
           .style("fill", (d:any, i:any) => color (d.prefix))
-          .style("opacity", 5)
+          .style("opacity", 5);
       node.append("title")
           .text( (d: any) => d.link);
-      node.append("text")
+      node.append("a")  
+          // .attr("xlink:href", ((d: any) => "#" + d.name) )
+          .attr("xlink:href",(d:any, i:any) =>  "http://localhost:4200/#object"+ i )
+          .append("text")
           .attr("dy", -3)
           .text( (d:any) => d.name);
+
+      // add zoom capabilities
+      // let zoom_handler = d3.zoom()
+      // .scaleExtent([0.1, 2.5])
+      // .on("zoom", zoom_actions);
+      // zoom_handler(svg);
 
       simulation
           .nodes(nodes)
           .on("tick", ticked);
       simulation.force<d3.ForceLink<any, any>>('link')
           .links(links);
-
-      //add zoom capabilities 
-      const zoom_handler = d3.zoom()
-        .on("zoom", zoom_actions);
-      zoom_handler(svg);
 
       // tick function
       function ticked() {
@@ -135,24 +145,26 @@ export class GraphviewComponent {
         edgepaths.attr('d', (d: any) => 'M ' + d.source.x + ' ' + d.source.y + ' L ' + d.target.x + ' ' + d.target.y);
         // simulation.stop();
         }
-    }
-
-    //zoom functions 
-    function zoom_actions(){
-      g.attr("transform", d3.event.transform)
+    }    
+    
+    //zoom functions
+    function zoom_actions(){ 
+      
+      g.attr("transform", d3.event.transform);
     }
 
     function dragstarted(d) {
+
       simulation.restart();
       d.fx = d.x;
       d.fy = d.y;
     }
   
     function dragged(d) {
+
       simulation.restart();
       d.fx = d3.event.x;
       d.fy = d3.event.y;
     }
-
   }
 }
