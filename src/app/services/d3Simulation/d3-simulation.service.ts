@@ -95,7 +95,7 @@ export class D3SimulationService {
         .enter()
         .append("a")                                 
                                                       // search id of visualization to refere to            
-        .attr("xlink:href",(d:any, i:any) =>  "http://localhost:4200/#"+"Bagh_59_"+ i )
+        .attr("xlink:href",(d:any, i:any) =>  "#"+"Bagh_59_"+ i )
         .append("g")
         .attr("class", "node")
                                                       // !!!!!!!!
