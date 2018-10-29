@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 
-import { Component, OnInit } from '@angular/core';
+// import { Component, OnInit } from '@angular/core';
 import { DataService } from "../data/data.service";
-import { concat } from 'rxjs/internal/observable/concat';
+// import { concat } from 'rxjs/internal/observable/concat';
 
 @Injectable({
   providedIn: 'root'
@@ -22,14 +22,15 @@ export class JsonToD3Service {
     let d3Json; 
 
     // myD3Data => zoneAwayPromise
+                                                          // RDF-XML Eingabedatei
     this.myD3PromiseObject = this.dataService.xmlToJSON('./assets/wisski_test.xml').then(function (result) {
     
       // Keys
       const keys = addKeylist(result);      
-      const keysNodeName = addKeylistRaw(result, keys);
-      const keysNodeLink = addKeylistRaw(result, keys);
+      const keysNodes = addKeylistRaw(result, keys);
+      const keysNodeLinks = addKeylistRaw(result, keys);
       // d3Json  
-      d3Json = jsonToD3(result, keys, keysNodeName, keysNodeLink);
+      d3Json = jsonToD3(result, keys, keysNodes, keysNodeLinks);
       // return zoneAwayPromise
       return d3Json;
     }, function (error) {
@@ -167,8 +168,9 @@ function jsonToD3(result, keys, keysNodeName, keysNodeLink) {
               // add id
               node["id"] = node_id;
               // shorten name
-              var folders = node["name"].split('/');
-              node["name"] = folders[folders.length-2] + "/" +  folders[folders.length-1];
+              let folders =  String(node["name"]).split('/');
+              // node["name"] = folders[folders.length-2] + "/" +  folders[folders.length-1];
+              node["name"] = folders[folders.length-1];
               // prefix, for color
               node["prefix"] = Math.floor(folders[folders.length-1].length);
               // add node
@@ -227,8 +229,9 @@ function jsonToD3(result, keys, keysNodeName, keysNodeLink) {
             // add id
             node["id"] = node_id;
             // shorten name
-            var folders = node["name"].split('/');
-            node["name"] = folders[folders.length-2] + "/" +  folders[folders.length-1];
+            let folders = String(node["name"]).split('/');
+            // node["name"] = folders[folders.length-2] + "/" +  folders[folders.length-1];
+            node["name"] = folders[folders.length-1];
             // prefix, for color
             node["prefix"] = Math.floor(folders[folders.length-1].length);
             // add node

@@ -12,16 +12,10 @@ import {XmlviewComponent} from './components/xmlview/xmlview.component';
 
 import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
 
-// import { D3Service, D3_DIRECTIVES } from './components/graphview/d3';
-// import { GraphComponent } from './components/graphview/visuals/graph/graph.component';
-// import { SHARED_VISUALS } from './components/graphview/visuals/shared';
 
 @NgModule({
   declarations: [
     AppComponent,
-    // GraphComponent,
-    // ...SHARED_VISUALS,
-    // ...D3_DIRECTIVES,
     TextviewComponent,
     GraphviewComponent,
     XmlviewComponent

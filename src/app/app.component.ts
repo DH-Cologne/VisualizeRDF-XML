@@ -20,7 +20,7 @@ export class AppComponent implements OnInit {
 
     this.jsonToD3Service.myD3PromiseObject.then(function(value) {
 
-      console.log(value);
+      // console.log(value);
     });
   }
 }
