@@ -24,10 +24,12 @@ export class DataService {
     return new Promise<string>((resolve, reject) => {
 
       this.http.get(url, {responseType: 'text'}).subscribe(data => {
+
         this.textFile = data;
         this.dataUpdated.emit(data);
         resolve(data);
       }, error => {
+        
         reject(error);
       });
     });
