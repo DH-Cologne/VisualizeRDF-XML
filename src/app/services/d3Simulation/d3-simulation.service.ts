@@ -21,7 +21,7 @@ export class D3SimulationService {
     const color = d3.scaleOrdinal(d3.schemeCategory10);
     svg.attr("id", "svg")
     .call(d3.zoom()
-            .scaleExtent([0.1, 3])
+            .scaleExtent([0.05, 3])
             .on("zoom", zoom_actions));
     
     //add encompassing group -- later seen as HTML-group (<g>-Tag) -- for the zoom 
@@ -94,18 +94,20 @@ export class D3SimulationService {
         .data(nodes)
         .enter()
         .append("a")                                 
-                                                      // search id of visualization to refere to            
-        .attr("xlink:href",(d:any, i:any) =>  "#"+"Bagh_59_"+ i )
+                                                      // IN Global-Data-Table:
+                                                      // search id of visualization to refere to
+        .attr("xlink:href",(d:any, i:any) =>  "http://localhost:4200/#"+"xml-"+ i )
         .append("g")
         .attr("class", "node")
-                                                      // !!!!!!!!
+                                                      
                                                       // get identifier
                                                       // !!!!!!!!
-                                                      // load identifier of external object
-        .attr("identifier", (d:any, i:any) => "identifier"+ i)
+                                                      // "global-Identifier" has to be part of RDF-Node in advance
                                                       // !!!!!!!!
-                                                      // id automatisch nach identifier vergeben!!
-        .attr("id", (d:any, i:any) => "node" + i)
+        .attr("global-Identifier", (d:any, i:any) => "global-Identifier-"+ i)
+                                                      // !!!!!!!!
+                                                      // local "id" nach "global-Identifier" vergeben!!
+        .attr("id", (d:any, i:any) => "rdf-" + i)
         .call(d3.drag()
                 .on("start", dragstarted)
                 .on("drag", dragged)

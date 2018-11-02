@@ -10,18 +10,19 @@ import { JsonToD3Service } from "./services/jsonToD3/json-to-d3.service";
   styleUrls: ['./app.component.css']
 })
 
-export class AppComponent implements OnInit {
+// export class AppComponent implements OnInit {
+export class AppComponent{
 
 
   constructor(private jsonToD3Service: JsonToD3Service) {
   }
 
-  ngOnInit() {
+  // ngOnInit() {
 
-    this.jsonToD3Service.myD3PromiseObject.then(function(value) {
+  //   this.jsonToD3Service.myD3PromiseObject.then(function(value) {
 
-      // console.log(value);
-    });
-  }
+  //     console.log(value);
+  //   });
+  // }
 }
 

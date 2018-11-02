@@ -1,42 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF
 	xmlns="http://objekte-im-netz.fau.de/ontology/common/"
-	xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:ecrm="http://erlangen-crm.org/170309/"
-	xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
-	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-	xmlns:swrl="http://www.w3.org/2003/11/swrl#"
-	xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
-	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:fn="http://www.w3.org/2005/xpath-functions#"
-	xmlns:sesame="http://www.openrdf.org/schema/sesame#"
-	xmlns:samm="http://objekte-im-netz.fau.de/ontology/common/"
-	xmlns:ufg="http://objekte-im-netz.fau.de/ontology/ufg/"
-	xmlns:palaeo="http://objekte-im-netz.fau.de/ontology/palaeo/">
+	xmlns:ecrm="http://erlangen-crm.org/170309/">
 
 
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+<!-- ADD GLOBAL-IDENTIFIER TO CHOSEN RDF-OBJECTS -->
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+<!-- ???? VIA => RDF:ID ???? -->
+<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
 
-
-<rdf:Description rdf:about="http://projects.hki.uni-koeln.de/wisski/content/5ae2fc031e2e3">
+<rdf:Description rdf:about="http://projects.hki.uni-koeln.de/wisski/content/5ae2fc031e2e3" global-Identifier="blabla">
 	<rdf:type rdf:resource="http://erlangen-crm.org/170309/E48_Place_Name"/>
 	<ecrm:P3_has_note>isfahan</ecrm:P3_has_note>
+	<globalIdentifier>isfahan</globalIdentifier>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://sws.geonames.org/418863/" global-Identifier="blabla2">
+	<originatesFrom xmlns="http://projects.hki.uni-koeln.de/wisski/content/">geonames</originatesFrom>
+	<owl:sameAs rdf:resource="http://projects.hki.uni-koeln.de/wisski/content/5ae2fc0303c0d"/>
+	<owl:sameAs rdf:resource="http://projects.hki.uni-koeln.de/wisski/wisski/navigate/134/view"/>
+	<owl:sameAs rdf:resource="http://projects.hki.uni-koeln.de/wisski/content/5ae2fc03e0c9c"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://projects.hki.uni-koeln.de/wisski/content/5ae2fc032db1e">
 	<originatesFrom xmlns="http://projects.hki.uni-koeln.de/wisski/content/">sparql_rdf_for_crmarchaeo</originatesFrom>
 	<owl:sameAs rdf:resource="http://projects.hki.uni-koeln.de/wisski/content/5ae2fc02b8c91"/>
 	<owl:sameAs rdf:resource="http://projects.hki.uni-koeln.de/wisski/wisski/navigate/133/view"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://sws.geonames.org/418863/">
-	<originatesFrom xmlns="http://projects.hki.uni-koeln.de/wisski/content/">geonames</originatesFrom>
-	<owl:sameAs rdf:resource="http://projects.hki.uni-koeln.de/wisski/content/5ae2fc0303c0d"/>
-	<owl:sameAs rdf:resource="http://projects.hki.uni-koeln.de/wisski/wisski/navigate/134/view"/>
-	<owl:sameAs rdf:resource="http://projects.hki.uni-koeln.de/wisski/content/5ae2fc03e0c9c"/>
-</rdf:Description>
+</rdf:Description> 
 
 <rdf:Description rdf:about="http://projects.hki.uni-koeln.de/wisski/content/5ae2fc03e0c9c">
 	<originatesFrom xmlns="http://projects.hki.uni-koeln.de/wisski/content/">sparql_rdf_for_crmarchaeo</originatesFrom>
@@ -45,7 +38,7 @@
 	<owl:sameAs rdf:resource="http://sws.geonames.org/418863/"/>
 </rdf:Description>
 
-
+<!--
 <rdf:Description rdf:about="http://projects.hki.uni-koeln.de/wisski/content/5ae312098a0f9">
 	<rdf:type rdf:resource="http://erlangen-crm.org/170309/E7_Activity"/>
 	<originatesFrom xmlns="http://projects.hki.uni-koeln.de/wisski/content/">sparql_1_1_rdf_with_pathbuilder</originatesFrom>
@@ -169,6 +162,6 @@
 	<owl:sameAs rdf:resource="http://sws.geonames.org/418863/"/>
 	<owl:sameAs rdf:resource="http://projects.hki.uni-koeln.de/wisski/content/5ae2fc03e0c9c"/>
 </rdf:Description>
-
+ -->
 
 </rdf:RDF>

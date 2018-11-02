@@ -20,15 +20,21 @@ export class TextviewComponent implements OnInit {
 
   ngOnInit(){
 
-    
-    // initialize and fill localDataTableObject 
+    // INITIALIZE AND FILL LOCAL-DATATABLE-OBJECT WITH GLOBAL-IDENTIFIER
+    // ----------------------------------------
     // OBJEKTE MIT IDENTIFIER AUS HTML ELEMENTEN AUSLESEN
-    let identifierObjects = document.querySelectorAll('a[identifier]');
-    
+    let identifierObjects = document.querySelectorAll('a[global-Identifier]');
     // give XML-ID to Object depending on Identifier
     for (let i=0; i < identifierObjects.length; i++){
-      console.log(identifierObjects[i]);
-      identifierObjects[i].setAttribute("id", "Bagh_59_" + identifierObjects[i].getAttribute("identifier"));
+
+      // console.log(identifierObjects[i]);
+      let globalId =  String(identifierObjects[i].getAttribute("global-Identifier")).split('-');
+      let localID = "xml-" + globalId[globalId.length-1];
+      identifierObjects[i].setAttribute("id", localID);
+
+
+
+      // FILL GLOBAL-IDENTIFIER??
     }
   }
 
@@ -58,16 +64,16 @@ export class TextviewComponent implements OnInit {
             .call(zoom.transform, t);
   }
 
-  // Function -- NodeZoom 
+  // Function -- NodeZoom for zoom on rdf-Visualization
   NodeZoom(event) {
 
     // declare witch node to zoom on by XML-Object-ID  
     var target = event.target || event.srcElement || event.currentTarget;
     var idAttr = target.attributes.id;
     var value = idAttr.nodeValue;
-    let id =  String(value).split('_');
+    let id =  String(value).split('-');
     value = id[id.length-1];
-    let targetNode = "node" + String(value); 
+    let targetNode = "rdf-" + String(value); 
     // set href to target-node-id
     target.setAttribute("href", "#" + targetNode)
     this.zoomOnNode(targetNode);
