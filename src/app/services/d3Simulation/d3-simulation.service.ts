@@ -43,7 +43,8 @@ export class D3SimulationService {
     // use the output json (value) 
     this.jsonToD3Service.myD3PromiseObject.then(function(value) {
 
-      update(value.links, value.nodes, g)
+      console.log(value);
+      update(value.links, value.nodes, g);
     });
     
 
@@ -89,25 +90,24 @@ export class D3SimulationService {
         .attr("startOffset", "50%")
         .text((d:any) => d.type);
 
+
       // nodes
       const node = g.selectAll(".node")
         .data(nodes)
         .enter()
-        .append("a")                                 
-                                                      // IN Global-Data-Table:
-                                                      // search id of visualization to refere to
-        .attr("xlink:href",(d:any, i:any) =>  "http://localhost:4200/#"+"xml-"+ i )
+        
+        // Set: href
+        .append("a")    
+        .attr("xlink:href", (d:any) => {
+          if (d.type == "globalIdentifier") {return "http://localhost:4200/#"+"xml-"+ d.label} ;})
+        
+        // Set: globalIdentifier
         .append("g")
+        .attr("globalIdentifier", (d:any) => {
+          if (d.type == "globalIdentifier") {return d.label};})
+
         .attr("class", "node")
-                                                      
-                                                      // get identifier
-                                                      // !!!!!!!!
-                                                      // "global-Identifier" has to be part of RDF-Node in advance
-                                                      // !!!!!!!!
-        .attr("global-Identifier", (d:any, i:any) => "global-Identifier-"+ i)
-                                                      // !!!!!!!!
-                                                      // local "id" nach "global-Identifier" vergeben!!
-        .attr("id", (d:any, i:any) => "rdf-" + i)
+        .attr("id", (d:any) => "rdf-" + d.label)
         .call(d3.drag()
                 .on("start", dragstarted)
                 .on("drag", dragged)
@@ -115,14 +115,21 @@ export class D3SimulationService {
               );
       node.append("circle")
           .attr("r", 10)
-          .style("fill", (d:any, i:any) => color (d.prefix))
-          .style("opacity", 5);
+          .style("fill", (d:any, i:any) => color (d.color))
+          .style("opacity", 5)
+      
+      // Set label
       node
           .append("text")
           .attr("dy", -8)
-          .text( (d:any) => d.name);
+          .text( (d:any) => {
+            if (d.type == "globalIdentifier") {return d.label};});
+      
+      // Set title
       node.append("title")
-          .text( (d: any) => d.link);
+          .text( (d: any) => {
+            if (d.type != "globalIdentifier") {return d.label};});
+        
 
       // simulation -- nodes and links
       simulation
