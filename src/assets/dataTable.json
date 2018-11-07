@@ -1,0 +1,34 @@
+{
+  "objects":[
+    {
+      "id": 0,
+			"name": "Jewellery",
+			"rdf:about": "http://projects.hki.uni-koeln.de/wisski/content/5ae2fc031e2e3",
+			"xml_id": "xml_0"
+    },
+    {
+      "id": 1,
+			"name": "Isfahan-Iran",
+			"rdf:about": "http://sws.geonames.org/418863/",
+			"xml_id": "xml_1"
+    },
+    {
+      "id": 2,
+      "name": "Ancient-Iran",
+			"rdf:about": "http://projects.hki.uni-koeln.de/wisski/content/5ae2fc032db1e",
+			"xml_id": "xml_2"
+    },
+    {
+      "id": 3,
+      "name": "Cale-Gar-Caves",
+      "rdf:about": "http://projects.hki.uni-koeln.de/wisski/content/5ae2fc03e0c9c",
+      "xml_id": "xml_2"
+    },
+    {
+      "id": 4,
+      "name": "Sasanian-Period",
+      "rdf:about": "http://projects.hki.uni-koeln.de/wisski/content/5ae2fc02d3800",
+			"xml_id": "xml_4"
+    }
+  ]
+}

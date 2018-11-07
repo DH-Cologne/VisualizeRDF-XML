@@ -3,14 +3,22 @@
 <!------------------------->
 <!-- Keywords; Iran, Parthian, Sasanian, <a globalIdentifier="globalIdentifier-fingerRings"  href ="#" id= "xmlObject2" href = "http://localhost:4200/#node2" (click) = "zoomOnNode('node2')">finger-rings-(Object-2)</a>, beads.-->
 
+
+
 <!-- neue Version Objekt -->
 <!------------------------->
-    <!-- Objekt-Korrekturen: (für angular Leserlichkeit der original XML-Datei)-->
-    <!--------------------------------------------------------------------------->
+
+<!-- Objekt-Korrekturen: (für angular Leserlichkeit der original XML-Datei)-->
+<!--------------------------------------------------------------------------->
       <!--        '<rs></rs>'                =>         '<a></a>'                                     -->
       <!--        '<p/>'                     =>         '<p></p>'                                     -->
       <!--         '{}'                      =>         '-- --'                                       -->
       <!--         'n='                      =>          ' '                                          -->
+      <!-- 
+
+                        ?????          maybe 'n=' to 'xml_id='         ?????
+
+       -->
       <!--        '<a type="object"...'      =>          '<a type="object">                           -->
 
       <!--                        Add "globalIdentifier" to "<a>"                                     -->
@@ -21,9 +29,11 @@
       <!--           automatisches einfügen der "id", "href", und des Click-Event "NodeZoom(event)" 
                                 über global-Identifuer (function in ngOnInit(){})                     -->
 
+
+
 <!-- EXAMPE-OBJECT -->
                   
-                  <!-- <a type="object"  globalIdentifier="Jewellery">Jewellery</a> -->
+<!-- <a type="object"  globalIdentifier="Jewellery">Jewellery</a> -->
 
 <!-- onInit: -->
 <!------------------>
@@ -32,18 +42,26 @@
                               id, href, click-event -->
 
 <!--THEN EXAMPE-OBJECT -->
-<!----------------------->
-    <!-- <a type="object" globalIdentifier="Jewellery" href ="#rdf-Jewellery" id="xml-Jewellery" (click)="NodeZoom(event)" >Jewellery</a> -->
+
+<!-- <a type="object" globalIdentifier="Jewellery" href ="#rdf-Jewellery" id="xml-Jewellery" (click)="NodeZoom(event)" >Jewellery</a> -->
+
+
 
 <!------------------------------------------------------------------------------------------------------------------->
-<!------------------------------------------------------------------------------------------------------------------->
+
+<!-- Check DataTable -->
+<!-- --------------- -->
+<!-- <a type="object" xml_id="xml_0" >Jewellery</a> -->
+<!-- wird zu: -->
+<!-- <a _ngcontent-c1="" type="object" xml_id="xml_0" globalidentifier="Jewellery" id="xml-Jewellery" href="#rdf-Jewellery">Jewellery</a> -->
+
 
 <h2><p><a type="object">Iranian</a> 
-    <a type="object" globalIdentifier="Jewellery">Jewellery</a> and <a type="object">small finds</a> in
+    <a type="object" xml_id="xml_0" >Jewellery</a> and <a type="object">small finds</a> in
        <a type="object">religious context</a></p>
     </h2>
  <p>By <a type="object">Natascha Bagherpour Kashani</a></p>
- <p>Keywords;<a type="object" globalIdentifier="Isfahan-Iran">Iran</a>,<a type="object" 
+ <p>Keywords;<a type="object" xml_id="xml_1">Iran</a>,<a type="object" 
        >Parthian</a>,<a type="object" >Sasanian</a>,<a type="object"
        >finger-rings</a>,<a type="object" >beads</a>.</p>
  <p>واژگان کلیدی: <a type="object">ایران</a>، ا<a type="object">شکانیان</a>، <a
@@ -62,7 +80,7 @@
     <a type="property">make an important contribution to our knowledge</a>, not only <a
        type="property">for researching pre-lslamic religion</a>, but also for <a
        type="property">visualising</a> the <a type="object" >physical
-       artefacts</a> of <a type="object"  globalIdentifier="Ancient-Iran">ancient Iran</a>.</p>
+       artefacts</a> of <a type="object" xml_id="xml_2">ancient Iran</a>.</p>
  <p>The importance of the <a type="property">study of</a>
     <a type="object">jewellery finds</a> from <a type="object">Vesnave</a></p>
  <p>In <a type="object">Vesnave</a>, <a type="object">two mines</a>
@@ -81,7 +99,7 @@
        type="object">jewellery</a>
     <a type="property">has been unearthed predominantly</a>
     <a type="object">in graves</a>. <a type="property">To excavate</a> such an amount of
-       <a type="object">artefacts</a> in the <a type="object" globalIdentifier="Cale-Gar-Caves">Cale Gar caves</a> has
+       <a type="object">artefacts</a> in the <a type="object" xml_id="xml_3">Cale Gar caves</a> has
     been, apart from their importance for <a type="property">the investigation</a> of the
        <a type="object">pre-lslamic religion</a>, a milestone for research into <a
        type="object">small finds</a> in <a type="object">Iran</a> and the <a
@@ -120,7 +138,7 @@
        archaeology</a>
     <a type="object">lack a basic study of cultic</a> and <a type="object">everyday
        material of the kind</a>
-    <a type="property">found at Vesnave</a>. Regarding the <a type="object"  globalIdentifier="Sasanian-Period">Sasanian
+    <a type="property">found at Vesnave</a>. Regarding the <a type="object" xml_id="xml_4">Sasanian
        period</a>, <a type="object">Simpson</a>
     <a type="property">writes</a>: “<a type="property">Corresponding studies</a> of <a
        type="object">everyday material culture</a>
@@ -137,7 +155,7 @@
        type="property">were found in mine 1</a>; <a type="object" >further
        fragments of textiles</a> , <a type="object" >animal bones</a> , <a
        type="object" >wood</a> and <a type="object"  >wooden
-       vessels</a> , as well as <a type="object"  globalIdentifier="Organic-Material">other organic
+       vessels</a> , as well as <a type="object">other organic
        material</a> like <a type="object" >nuts</a> and <a type="object"
        >baked remains</a> , <a type="property">were also found
     there</a>.</p>

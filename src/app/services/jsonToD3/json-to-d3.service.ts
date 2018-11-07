@@ -1,7 +1,9 @@
 import { Injectable } from '@angular/core';
-
 import { DataService } from "../data/data.service";
-// import { JsonToD3KeylistService } from "../jsonToD3Keylist/json-to-d3-keylist.service";
+
+import { HttpClient, HttpClientJsonpModule } from '@angular/common/http'; 
+import { Observable } from 'rxjs';
+
 
 @Injectable({
   providedIn: 'root'
@@ -9,9 +11,9 @@ import { DataService } from "../data/data.service";
 export class JsonToD3Service {
 
   public myD3PromiseObject: Promise<any>;
+ 
 
-
-  constructor(private dataService: DataService) {
+  constructor(private dataService: DataService, private http: HttpClient) {
 
     this.createD3PromiseObject();
   }
@@ -24,6 +26,8 @@ export class JsonToD3Service {
                                                           // RDF-XML Eingabedatei
     this.myD3PromiseObject = this.dataService.xmlToJSON('./assets/wisski_test.xml').then(function (result) {
 
+      console.log(result);
+
       // KeyList-Alternative
       const keyList = createKeylist(result);      
       
@@ -34,10 +38,14 @@ export class JsonToD3Service {
       return d3Json;
     }, function (error) {
     });
-
   }
 }
 
+
+function getJSON(file): Observable<any> {
+  HttpClientJsonpModule
+  return this.http.get(file);
+}
 
 // --------------------------------------------------------------------------------------------
 // --------------------------------------------------------------------------------------------
@@ -251,6 +259,37 @@ function jsonToD3(keyList, result) {
                 // Add Link
                 addLink(node, sourceID_2, d3Json_2, node["type"]);
                 node_id_global++;
+
+                // CHECK "RDF:DESCRIPTION" (= node["label"]) WITH GLOBAL_DATA_TABLE
+                // --------------------------------------------------------------
+                // --------------------------------------------------------------
+                let dataTable = require('../../../assets/dataTable.json');
+                
+                // go through all global-Objects
+                for(let o=0; o< dataTable["objects"].length; o++){
+                  
+                  // Global-Object has "rdf:about"
+                  if (dataTable["objects"][o]["rdf:about"] != undefined){
+
+                    // When local and global Element have got the same "rdf:about"
+                    if (node["label"] == dataTable["objects"][o]["rdf:about"]){
+                      
+                      // ADD NOTE WITH GLOBAL_IDENTIFIER
+                      let node = {};
+                      node["type"] = "globalIdentifier";
+                      node["label"] = dataTable["objects"][o]["name"];
+                      node["id"] = node_id_global;
+                      node["color"] = 10;
+                      // Add Node
+                      d3Json_2.nodes.push(node);
+                      // Add Link
+                      addLink(node, sourceID_2, d3Json_2, node["type"]);
+                      node_id_global++;
+                    }
+                  }
+                }
+                // --------------------------------------------------------------
+                // --------------------------------------------------------------
               }
             }      
           }
@@ -259,6 +298,7 @@ function jsonToD3(keyList, result) {
           // PUSH NODE -- LEVEL-1
           if(typeof o_1 === 'string'){
           
+
             // ADD NODE
             let node = {};
             node["type"] = x[0][i];
