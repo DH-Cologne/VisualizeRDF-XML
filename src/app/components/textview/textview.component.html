@@ -11,59 +11,35 @@
 <!-- Objekt-Korrekturen: (für angular Leserlichkeit der original XML-Datei)-->
 <!--------------------------------------------------------------------------->
       <!--        '<rs></rs>'                =>         '<a></a>'                                     -->
+      <!--        '<a type="object"...'      =>          '<a type="object">                           -->
       <!--        '<p/>'                     =>         '<p></p>'                                     -->
       <!--         '{}'                      =>         '-- --'                                       -->
-      <!--         'n='                      =>          ' '                                          -->
-      <!-- 
+      <!--         'n='                      =>         'xml_id=...'                                  -->
 
-                        ?????          maybe 'n=' to 'xml_id='         ?????
 
-       -->
-      <!--        '<a type="object"...'      =>          '<a type="object">                           -->
-
-      <!--                        Add "globalIdentifier" to "<a>"                                     -->
-
-      <!--        '<a type="object">'        =>          '<a type="object" globalIdentifier="x">'     -->
-
-            
       <!--           automatisches einfügen der "id", "href", und des Click-Event "NodeZoom(event)" 
-                                über global-Identifuer (function in ngOnInit(){})                     -->
+                                über xml_id (function in ngOnInit(){})                                -->
 
+      <!--           NUR WENN DIE xml_id IN DER "dataTable.json" EINEM ELEMENT ZUGEHÖRIG IST          -->
 
 
 <!-- EXAMPE-OBJECT -->
-                  
-<!-- <a type="object"  globalIdentifier="Jewellery">Jewellery</a> -->
-
-<!-- onInit: -->
-<!------------------>
-<!-- if "globalIdentifier" -->
-<!-- automatisch vergeben: 
-                              id, href, click-event -->
-
-<!--THEN EXAMPE-OBJECT -->
-
-<!-- <a type="object" globalIdentifier="Jewellery" href ="#rdf-Jewellery" id="xml-Jewellery" (click)="NodeZoom(event)" >Jewellery</a> -->
-
-
-
-<!------------------------------------------------------------------------------------------------------------------->
-
-<!-- Check DataTable -->
-<!-- --------------- -->
+<!------------------->
 <!-- <a type="object" xml_id="xml_0" >Jewellery</a> -->
-<!-- wird zu: -->
+<!-- ... -->
+<!-- ... "Check DataTable" -> "xml_0"... -->
+<!-- ... -->
 <!-- <a _ngcontent-c1="" type="object" xml_id="xml_0" globalidentifier="Jewellery" id="xml-Jewellery" href="#rdf-Jewellery">Jewellery</a> -->
 
 
-<h2><p><a type="object">Iranian</a> 
+<h2><p><a type="object">Iranian </a> 
     <a type="object" xml_id="xml_0" >Jewellery</a> and <a type="object">small finds</a> in
        <a type="object">religious context</a></p>
     </h2>
  <p>By <a type="object">Natascha Bagherpour Kashani</a></p>
- <p>Keywords;<a type="object" xml_id="xml_1">Iran</a>,<a type="object" 
-       >Parthian</a>,<a type="object" >Sasanian</a>,<a type="object"
-       >finger-rings</a>,<a type="object" >beads</a>.</p>
+ <p>Keywords; <a type="object" xml_id="xml_1">Iran</a>,<a type="object" 
+       > Parthian</a>,<a type="object" > Sasanian</a>,<a type="object"
+       > finger-rings</a>,<a type="object"> beads</a>.</p>
  <p>واژگان کلیدی: <a type="object">ایران</a>، ا<a type="object">شکانیان</a>، <a
        type="object">ساسانیان</a>، <a type="object">انگشترها</a>، <a type="object">مهره
        ها</a></p>
@@ -124,10 +100,10 @@
        Beck</a> , who <a type="property" >assembled</a><a type="object"
        > the first classification system for beads</a> . Other <a
        type="object">essential publications</a> include those by <a type="object"
-        >P. Francis</a> on <a type="object" >Asian beads</a> ;
+        >P. Francis</a> on <a type="object" xml_id="xml_5">Asian beads</a> ;
        <a type="object"  >B. Musche</a> on <a type="object">Parthian</a>
     and <a type="object">Sasanian</a> jewellery; <a type="object"  >M.
-       Spaer</a> on <a type="object">glass</a> in the <a type="object">Israel
+       Spaer</a> on <a type="object">glass</a> in the <a type="object" xml_id="xml_6">Israel
        Museum</a>; and a revealing article by <a type="object"  >St. J.
        Simpson</a> on <a type="object"  >Sasanian beads</a> . <a
        type="property">Wide-ranging excavation reports</a> and <a type="property"
@@ -139,7 +115,7 @@
     <a type="object">lack a basic study of cultic</a> and <a type="object">everyday
        material of the kind</a>
     <a type="property">found at Vesnave</a>. Regarding the <a type="object" xml_id="xml_4">Sasanian
-       period</a>, <a type="object">Simpson</a>
+       period</a>, <a type="object" >Simpson</a>
     <a type="property">writes</a>: “<a type="property">Corresponding studies</a> of <a
        type="object">everyday material culture</a>
     <a type="property">are scarce yet a number of sites have been excavated</a> (.,.)a</p>
@@ -252,8 +228,8 @@
        >hexagonal shapes</a>, <a type="object">corner-less cube</a> and <a type="object"
        >so-called melon-shaped beads</a> (<a type="object">No. 6448</a>, <a
        type="object">Fig. 2</a>).</p>
- <p>Besides glass ones, <a type="object">stone beads</a>
-    <a type="property">make up a large proportion of the finds</a>. These are mainly <a
+ <p>Besides glass ones, <a type="object" xml_id="xml_7">stone beads</a>
+    <a type="property"> make up a large proportion of the finds</a>. These are mainly <a
        type="object">carnelian beads of shapes</a>
     <a type="property">similar to those named above</a>; but <a type="object">other
        materials</a>
@@ -263,7 +239,7 @@
        >hematite</a>, plus a few of <a type="object">turquoise</a> and <a type="object"
        >lapis lazuli</a> of <a type="object">poor quality</a>. More <a type="object"
        >precious beads</a> were <a type="property">made of</a>
-    <a type="object">silver</a>, <a type="object">gold</a> and <a type="object"
+    <a type="object">silver</a>, <a type="object" xml_id="xml_8">gold</a> and <a type="object"
        >amber</a>, while <a type="property">some other beads were made of</a>
     <a type="object">bone</a>, <a type="object">cowry</a> and <a type="object">other
        shells.</a></p>
@@ -334,7 +310,7 @@
     beads</a>. <a type="object">These artefacts</a>
     <a type="property">are of simple shapes and ornamented by white zig-zag lines, waves,
        dots or a “plant-like” pattern</a> (<a type="object">Fig. 3,a-c</a>). As mentioned
-    above. <a type="object">Beck,</a> “<a type="property">the founding father of bead
+    above. <a type="object" xml_id="xml_9">Beck,</a> “<a type="property">the founding father of bead
        studies</a>”, was <a type="property">the first to establish a chronology of the
        manufacture of etched carnelian beads</a>. <a type="property">He distinguished
        three phases</a>: <a type="object">the early period. A, which ended ca. 2000
@@ -361,8 +337,8 @@
     <a type="property">and has not been washed away</a>, lies in <a type="property">a
        special method of decorating stone beads</a> “used in <a type="object">South
        Asia</a>
-    <a type="object">as early as the</a>
-    <a type="object">mid-3rd millennium BC'</a>. <a type="property">Etching them while
+    <a type="object">as early as the </a>
+    <a type="object" xml_id="xml_10">mid-3rd millennium BC'</a>. <a type="property">Etching them while
        applying</a>
     <a type="object">an alkaline</a>
     <a type="object">solution</a> together <a type="property">with heat made the white

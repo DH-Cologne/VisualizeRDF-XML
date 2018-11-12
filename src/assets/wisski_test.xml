@@ -6,13 +6,13 @@
 	xmlns:ecrm="http://erlangen-crm.org/170309/"
 >
 
-<!-- Check DataTable -->
-<!--                 -->
 <!-- BEISPIEL: -->
+<!--                 -->
+<!-- Check DataTable -->
 	<!-- 
 	<rdf:Description rdf:about="http://projects.hki.uni-koeln.de/wisski/content/5ae2fc031e2e3"> 
 	-->
-<!-- wird zu: -->
+<!--... -->
 	<!-- 
 	<rdf:Description rdf:about="http://projects.hki.uni-koeln.de/wisski/content/5ae2fc031e2e3">
 		<globalIdentifier>Isfahan-Iran</globalIdentifier> 
