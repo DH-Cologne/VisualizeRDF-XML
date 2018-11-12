@@ -99,7 +99,7 @@ export class D3SimulationService {
         // Set: href
         .append("a")    
         .attr("xlink:href", (d:any) => {
-          if (d.type == "globalIdentifier") {return "http://localhost:4200/#"+"xml-"+ d.label} ;})
+          if (d.type == "globalIdentifier") {return "#"+"xml-"+ d.label} ;})
         
         // Set: globalIdentifier
         .append("g")
