@@ -3,6 +3,25 @@
 Online Web Deploy of the Project on: https://visualizerdf-xml.netlify.com
 
 
+## Local Run 
+
+### Installation
+
+Run `npm install` for the installation of Node-Modules.
+
+
+### Development server
+
+Run `ng serve` for a dev server. 
+
+Navigate to `http://localhost:4200/`. 
+
+The app will automatically reload if you change any of the source files.
+
+.
+.
+.
+
 # ANGULAR DETAILS/HELP
 # Ngsample
 
