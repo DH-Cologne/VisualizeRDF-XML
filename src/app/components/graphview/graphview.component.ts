@@ -1,7 +1,6 @@
-import{ Component, ViewEncapsulation } from '@angular/core';
+import {Component, OnInit, ViewEncapsulation} from '@angular/core';
 
-import { DataTableService } from "../../services/dataTable/data-table.service";
-import { D3SimulationService } from "../../services/d3Simulation/d3-simulation.service";
+import { D3SimulationService } from '../../services/d3Simulation/d3-simulation.service';
 
 @Component({
   selector: 'app-graphview',
@@ -9,32 +8,13 @@ import { D3SimulationService } from "../../services/d3Simulation/d3-simulation.s
   templateUrl: './graphview.component.html',
   styleUrls: ['./graphview.component.css']
 })
-export class GraphviewComponent {
+export class GraphviewComponent implements OnInit {
 
-  constructor(private d3SimulationService: D3SimulationService, private completeDataTableService: DataTableService) {
+  constructor(private d3SimulationService: D3SimulationService) {
   }
-  
+
   ngOnInit() {
-
-
-
-    // ID-DataTable
-    // -------------
-    // initialize and fill localDataTableObject 
-    // compare localDataTableObject -- completeDataTable 
-    // to => set identifier for own visualization and target visualization 
-    // (of completeDataTable)
-    // -------------
-    // AUS HTML ELEMENTEN AUSLESEN!!
-    // -------------
-
-    
-
-
-    // D3-Simulation 
-    // -------------
     this.d3SimulationService.createD3Simulation();
-
-  } 
+  }
 
 }

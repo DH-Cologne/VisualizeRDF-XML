@@ -58,7 +58,7 @@
 
 <rdf:Description rdf:about="http://projects.hki.uni-koeln.de/wisski/content/5ae1cba4c1c0d">
 	<rdf:type rdf:resource="http://erlangen-crm.org/170309/E35_Title"/>
-	<ecrm:P3_has_note>Geonames</ecrm:P3_has_note>
+	<ecrm:P3_has_note>Geonames xyzzy</ecrm:P3_has_note>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://projects.hki.uni-koeln.de/wisski/content/5ae1d337910d1">
