@@ -60,7 +60,7 @@ export class TextviewComponent implements OnInit {
             xmlIdObjects[j].setAttribute('id', 'xml-' + globalIdName);
 
             // set "href"
-            xmlIdObjects[j].setAttribute('href', '#rdf-' + globalIdName);
+            xmlIdObjects[j].setAttribute('href', '#rdf-' + globalIdName + ' javascript:void(0);');
           }
         }
       }
