@@ -2,7 +2,6 @@ import {Component, OnInit} from '@angular/core';
 
 import * as d3 from 'd3';
 
-
 @Component({
   selector: 'app-textview',
   templateUrl: './textview.component.html',
@@ -16,63 +15,64 @@ export class TextviewComponent implements OnInit {
   constructor() {
   }
 
-  ngOnInit(){
+  ngOnInit() {
 
     // GET GLOBAL DATA TABLE JSON
     // ---------------------
-    let dataTableE = require('../../../assets/dataTable.json');
-        
-      // Global-DataTable-Object
-      this.dataTable =dataTableE["objects"];
+    const dataTableE = require('../../../assets/dataTable.json');
 
-      // go through Global-DataTable-Elements
-      for (let i = 0; i < this.dataTable.length; i++){
+    // Global-DataTable-Object
+    this.dataTable = dataTableE['objects'];
 
-        // IF Global-DataTable-Element has "xml_id" Attribute:
-        if (this.dataTable[i]["xml_id"] != undefined){
+    // go through Global-DataTable-Elements
+    for (let entry of this.dataTable) {
 
-          // global_object_xml_id
-          let global_object_xml_id = this.dataTable[i]["xml_id"];          
+      // IF Global-DataTable-Element has "xml_id" Attribute:
+      if (entry['xml_id']) {
 
-          // Find Local-Element with this Global-Element connection
-          // ----------------------------------------------------
-          // Objekte mit "xml_id"
-          let xmlIdObjects = document.querySelectorAll('a[xml_id]');
+        // global_object_xml_id
+        const global_object_xml_id = entry['xml_id'];
 
-          // GET LOCAL OBJECT 
-          // WITH FITTING:
-          // XML_ID
-          for(let j = 0; j < xmlIdObjects.length; j++){
+        // Find Local-Element with this Global-Element connection
+        // ----------------------------------------------------
+        // Objekte mit "xml_id"
+        const xmlIdObjects = document.querySelectorAll('a[xml_id]');
 
-            // get local "xml_id"
-            let local_object_xml_id =  String(xmlIdObjects[j].getAttribute("xml_id"));
+        // GET LOCAL OBJECT
+        // WITH FITTING:
+        // XML_ID
+        for (let j = 0; j < xmlIdObjects.length; j++) {
 
-            // compare global_id & local_id  -- if (equal):
-            if (local_object_xml_id == global_object_xml_id){
-              
-              // set "globalIdentifier"
-              let globalIdName = this.dataTable[i]["name"];
-              xmlIdObjects[j].setAttribute("globalIdentifier", globalIdName);
+          // get local "xml_id"
+          const local_object_xml_id = String(xmlIdObjects[j].getAttribute('xml_id'));
 
-              // set "click-event" - "NodeZoom(event)" function
-              xmlIdObjects[j].addEventListener("click", this.NodeZoom);
+          // compare global_id & local_id  -- if (equal):
+          if (local_object_xml_id === global_object_xml_id) {
 
-              // set "id"
-              xmlIdObjects[j].setAttribute("id", "xml-" + globalIdName);
+            // set "globalIdentifier"
+            const globalIdName = entry['name'];
+            xmlIdObjects[j].setAttribute('globalIdentifier', globalIdName);
 
-              // set "href"
-              xmlIdObjects[j].setAttribute("href", "#rdf-" + globalIdName);
-            }
+            // set "click-event" - "NodeZoom(event)" function
+            xmlIdObjects[j].addEventListener('click', this.NodeZoom);
+
+            // set "id"
+            xmlIdObjects[j].setAttribute('id', 'xml-' + globalIdName);
+
+            // set "href"
+            xmlIdObjects[j].setAttribute('href', '#rdf-' + globalIdName);
           }
         }
       }
 
-    
+    }
+
+
     // OLD VERSION BEFORE GLOBAL_DATA-TABLE
     // -----------------------------------
     // // Objekte mit "globalIdentifier"
     // let identifierObjects = document.querySelectorAll('a[globalIdentifier]');
-    
+
     // for (let i=0; i < identifierObjects.length; i++){
 
     //   // click-event for "NodeZoom(event)" function
@@ -86,39 +86,39 @@ export class TextviewComponent implements OnInit {
     // }
   }
 
-  
+
   // Function -- NodeZoom for zoom on rdf-Visualization
   NodeZoom(event) {
 
     // declare witch node to zoom on by XML-Object-ID
-    var target = event.target || event.srcElement || event.currentTarget;
-    var id = target.attributes.globalIdentifier.nodeValue;
-    let targetNode = "rdf-" + String(id); 
-    
+    const target = event.target || event.srcElement || event.currentTarget;
+    const id = target.attributes.globalIdentifier.nodeValue;
+    const targetNode = 'rdf-' + String(id);
+
     console.log(targetNode);
 
-    // get node-position by node-id 
-    if (document.getElementById(targetNode) != null){
-  
-      let b = (document.getElementById(targetNode) as any).getBBox();
-      
-      let matrix = (document.getElementById(targetNode) as any).getAttribute("transform").replace(/[^0-9\-.,]/g, '').split(',');
-      matrix[0] =  Number(matrix[0]) + Number(b.x);
-      matrix[1] =  Number(matrix[1]) + Number(b.y);
+    // get node-position by node-id
+    if (document.getElementById(targetNode) != null) {
 
-      let svg = document.getElementById('svg');    
+      const b = (document.getElementById(targetNode) as any).getBBox();
+
+      const matrix = (document.getElementById(targetNode) as any).getAttribute('transform').replace(/[^0-9\-.,]/g, '').split(',');
+      matrix[0] = Number(matrix[0]) + Number(b.x);
+      matrix[1] = Number(matrix[1]) + Number(b.y);
+
+      const svg = document.getElementById('svg');
 
       // update svg viewbox in html with node-position
-      svg.setAttribute("viewBox", matrix[0] + " " + matrix[1] + " " + 690 + " " + 650);
-      
+      svg.setAttribute('viewBox', matrix[0] + ' ' + matrix[1] + ' ' + 690 + ' ' + 650);
+
       // update transform in html
-      document.getElementById('everythingZoom').setAttribute("transform","translate("+ 345 +","+ 325 +") scale(1)");
-    
+      document.getElementById('everythingZoom').setAttribute('transform', 'translate(' + 345 + ',' + 325 + ') scale(1)');
+
       // update transform --zoom.transform-- in "svg" d3-selection
-      let t = d3.zoomIdentity.translate(345, 325).scale(1);
-      let zoom = d3.zoom();
-      let svgD3 = d3.select("svg")
-              .call(zoom.transform, t);
+      const t = d3.zoomIdentity.translate(345, 325).scale(1);
+      const zoom = d3.zoom();
+      const svgD3 = d3.select('svg')
+        .call(zoom.transform, t);
     }
   }
 }

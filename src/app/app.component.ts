@@ -1,8 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-
-// import { DataService } from "./services/data/data.service";
-import { JsonToD3Service } from "./services/jsonToD3/json-to-d3.service";
-
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -11,18 +7,9 @@ import { JsonToD3Service } from "./services/jsonToD3/json-to-d3.service";
 })
 
 // export class AppComponent implements OnInit {
-export class AppComponent{
+export class AppComponent {
 
-
-  constructor(private jsonToD3Service: JsonToD3Service) {
+  constructor() {
   }
-
-  // ngOnInit() {
-
-  //   this.jsonToD3Service.myD3PromiseObject.then(function(value) {
-
-  //     console.log(value);
-  //   });
-  // }
 }
 
