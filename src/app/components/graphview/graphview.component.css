@@ -7,8 +7,8 @@
 }
 
 .nodes circle {
-  stroke: #fff;
-  stroke-width: 1.5px;
+  stroke: #333;
+  stroke-width: 2px;
   cursor: pointer;
 }
 
