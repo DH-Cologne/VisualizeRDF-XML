@@ -1,0 +1,1498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns="http://objekte-im-netz.fau.de/ontology/common/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:ecrm="http://erlangen-crm.org/170309/"
+>
+
+  <rdf:Description rdf:about="http://collection.britishmuseum.org/id/thesauri/x5597">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P137F.exemplifies"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://collection.britishmuseum.org/id/thesauri/x5597">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"bowl"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://collection.britishmuseum.org/id/thesauri/x5597">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"coptic bowl"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://collection.britishmuseum.org/id/thesauri/x5597">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"food-bowl"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://collection.britishmuseum.org/id/thesauri/x5597">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"serving-bowl"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://collection.britishmuseum.org/id/thesauri/x5597">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"wan"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://collection.britishmuseum.org/id/thesauri/x5597">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"پیاله"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://collection.britishmuseum.org/id/thesauri/x5597">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"قدح"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://collection.britishmuseum.org/id/thesauri/x5597">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"کاسه"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://collection.britishmuseum.org/id/thesauri/x5597">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"کاسه غذا"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://collection.britishmuseum.org/id/thesauri/x5597">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/9319b127-b771-4fbd-b828-3c1f7665b75a/e4606"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"Iranian jewellery and small finds in religious context"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e2928"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n16"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n17"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n18"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n20"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n21"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n22"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n24"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n25"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n26"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n27"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n28"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n32"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n33"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n34"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n35"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n36"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n37"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n38"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n39"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n40"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n43"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n44"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n45"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n46"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n48"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n49"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n50"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n51"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n52"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n53"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n65"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/document6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P67F.refers_to"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"An Islamic coin"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"یک سکه دوره اسلامی"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P137F.exemplifies"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x6089"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P3F.has_note"/>
+    <ecrm:P3_has_note>"""Inscription Content is \"Unrecognizable\"."""</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P43F.has_dimension"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n1/dimension1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P44F.has_condition"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n1/condition1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x11728"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e121"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P51F.has_former_or_current_owner"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/legalbody8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P65F.shows_visual_item"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/inscription1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n1/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"Diameter: 2.44 centimeters"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n1/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"قطر: 2.44 سانتی‌متر"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n1/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e1739"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n10">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"Gold in glass cylindrical bead"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n10">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"مهره استوانه‌ای شیشه‌ای تزئین شده با طلا "</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n10">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P137F.exemplifies"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5387"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n10">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P43F.has_dimension"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n10/dimension1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n10">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P44F.has_condition"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n10/condition1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n10">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x10879"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n10">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x10892"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n10">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e139"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n10">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P51F.has_former_or_current_owner"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/legalbody8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n10/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"Diameter: 0.65-0.8 centimeters (approx)"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n10/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"قطر: 0.65-0.8 سانتی‌متر (تقریبی)"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n10/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e1830"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n11">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"Group of selected finger-rings"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n11">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"مجموعه‌ای از انگشترهای منتخب"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n11">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P137F.exemplifies"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x6743"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n11">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P43F.has_dimension"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n7/dimension1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n11">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P44F.has_condition"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n11/condition1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n11">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x10424"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n11">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x10626"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n11">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x10879"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n11">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x11019"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n11">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x11728"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n11">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e141"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n11">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P51F.has_former_or_current_owner"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/legalbody8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n11">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P65F.shows_visual_item"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/image6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n12">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"Glass finger-ring"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n12">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"انگشتر شیشه‌ای"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n12">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P137F.exemplifies"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x6743"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n12">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P43F.has_dimension"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n12/dimension1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n12">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P44F.has_condition"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n12/condition1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n12">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x10879"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n12">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e143"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n12">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P51F.has_former_or_current_owner"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/legalbody8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n12/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"Inner Diameter: 1.5 centimeters"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n12/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"قطر داخلی: 1.5 سانتی‌متر"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n12/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e1758"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n13">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"Finger-ring of bronze wire bent to spirals"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n13">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"انگشتر با سیم‌های مارپیچی برنزی"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n13">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P137F.exemplifies"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x6743"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n13">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P43F.has_dimension"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n13/dimension1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n13">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P43F.has_dimension"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n13/dimension2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n13">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P44F.has_condition"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n13/condition1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n13">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x10424"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n13">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e145"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n13">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P51F.has_former_or_current_owner"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/legalbody8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n13/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"Inner Diameter: 1.5 centimeters"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n13/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"قطر داخلی: 1.5 سانتی‌متر"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n13/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e1811"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n14">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"Offering finger ring"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n14">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"انگشتر نذری"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n14">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P137F.exemplifies"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x6743"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n14">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P43F.has_dimension"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n14/dimension1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n14">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P44F.has_condition"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n14/condition1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n14">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x10424"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n14">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e147"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n14">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P51F.has_former_or_current_owner"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/legalbody8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n14">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P65F.shows_visual_item"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/image1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n14/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"Inner Diameter: 1.64 centimeters"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n14/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"قطر داخلی: 1.64 سانتی‌متر"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n14/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e1762"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n15">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"Group of selected figurative metal sheets"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n15">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"مجموعه‌ای از لوح‌های فلزی تصویری منتخب"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n15">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P137F.exemplifies"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x105990"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n15">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P137F.exemplifies"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x9890"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n15">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P44F.has_condition"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n15/condition1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n15">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x10892"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n15">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x11728"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n15">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e149"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n15">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P51F.has_former_or_current_owner"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/legalbody8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n16">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"Figurative metal sheet showing a human being"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n16">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"لوح فلزی نمایش‌دهنده تصویر یک انسان"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n16">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P128F.carries"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/image7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n16">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P137F.exemplifies"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x105990"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n16">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P44F.has_condition"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n16/condition1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n16">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x11728"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n16">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e151"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n16">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P51F.has_former_or_current_owner"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/legalbody8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n17">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"Figurative metal sheet"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n17">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"لوح فلزی تصویری"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n17">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P137F.exemplifies"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x105990"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n17">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P44F.has_condition"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n17/condition1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n17">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x11728"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n17">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e153"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n17">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P51F.has_former_or_current_owner"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/legalbody8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n18">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"Bronze arrow head"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n18">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"سرنیزه برنزی"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n18">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P137F.exemplifies"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5240"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n18">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P43F.has_dimension"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n18/dimension1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n18">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P43F.has_dimension"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n18/dimension2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n18">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P43F.has_dimension"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n18/dimension3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n18">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P44F.has_condition"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n18/condition1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n18">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x10424"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n18">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e155"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n18">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P51F.has_former_or_current_owner"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/legalbody8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n18/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"Length: 3.82 centimeters"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n18/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"طول: 3.82 سانتی‌متر"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n18/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e1766"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n2">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"Glass bead"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n2">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"مهره شیشه‌ای"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n2">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P137F.exemplifies"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5387"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n2">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P43F.has_dimension"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n2/dimension1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n2">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P44F.has_condition"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n2/condition1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n2">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x10879"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n2">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e123"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n2">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P51F.has_former_or_current_owner"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/legalbody8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n2/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"Diameter: 1.7 centimeters"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n2/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"قطر: 1.7 سانتی‌متر"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n2/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e1806"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n21">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"Offering finger ring"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n21">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"انگشتر نذری"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n21">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P137F.exemplifies"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x6743"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n21">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P44F.has_condition"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n21/condition1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n21">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x11225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n21">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e161"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n21">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P51F.has_former_or_current_owner"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/legalbody8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n21">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P65F.shows_visual_item"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/image8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n22">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"Offering finger ring"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n22">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"انگشتر نذری"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n22">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P137F.exemplifies"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x6743"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n22">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P44F.has_condition"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n22/condition1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n22">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x11225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n22">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e163"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n22">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P51F.has_former_or_current_owner"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/legalbody8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n22">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P65F.shows_visual_item"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/image9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n25">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"Broken offering finger ring"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n25">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"انگشتر نذری شکسته‌شده"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n25">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P137F.exemplifies"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x6743"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n25">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P44F.has_condition"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n25/condition1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n25">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x10411"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n25">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x10424"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n25">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x11729"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n25">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e169"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n25">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P51F.has_former_or_current_owner"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/legalbody8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n25">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P65F.shows_visual_item"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/image12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n3">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"Group of ornamented carnelian beads"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n3">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"مجموعه‌ای از مهره‌های عقیق تزئین شده"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n3">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P128F.carries"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/image2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n3">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P137F.exemplifies"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5387"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n3">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P43F.has_dimension"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n3/dimension1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n3">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P44F.has_condition"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n3/condition1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n3">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x10643"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n3">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e125"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n3">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P51F.has_former_or_current_owner"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/legalbody8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n3/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"Length: 1.1 cm- 1.4 centimeters (approx)"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n3/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"طول: 1.1-1.4 سانتی‌متر (تقریبی)"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n3/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e1747"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n4">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"Etched carnelian bead"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n4">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"مهره عقیق حکاکی شده"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n4">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P128F.carries"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/image3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n4">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P137F.exemplifies"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5387"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n4">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P43F.has_dimension"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n4/dimension1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n4">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P43F.has_dimension"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n4/dimension2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n4">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P44F.has_condition"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n4/condition1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n4">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x10643"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n4">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e127"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n4">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P51F.has_former_or_current_owner"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/legalbody8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n4/dimension2">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"Diameter: 1.4 centimeters"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n4/dimension2">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"قطر: 1.4 سانتی‌متر"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n4/dimension2">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e2744"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n42">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"Rectangular silver votive plate with figural motifs"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n42">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"بشقاب نذری نقره‌ای مستطیل شکل با نقش‌مایه‌های تصویری"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n42">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P137F.exemplifies"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x9890"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n42">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P44F.has_condition"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n42/condition1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n42">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x11728"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n42">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e203"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n42">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P51F.has_former_or_current_owner"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/legalbody8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n42">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P65F.shows_visual_item"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/image34"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n43">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"Silver coin of reign of Hormizd II"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n43">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"سکه نقره‌ای دوره هرمز دوم"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n43">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P137F.exemplifies"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x6089"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n43">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P43F.has_dimension"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n43/dimension1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n43">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P44F.has_condition"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n43/condition1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n43">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x11728"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n43">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e205"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n43">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P51F.has_former_or_current_owner"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/legalbody8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n43">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P65F.shows_visual_item"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/image16"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n5">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"Etched carnelian bead"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n5">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"مهره عقیق حکاکی شده"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n5">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P137F.exemplifies"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5387"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n5">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P43F.has_dimension"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n5/dimension1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n5">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P43F.has_dimension"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n5/dimension2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n5">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P44F.has_condition"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n5/condition1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n5">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x10643"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n5">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e129"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n5">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P51F.has_former_or_current_owner"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/legalbody8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n5">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P65F.shows_visual_item"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/image33"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n50/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"Length: 1.1 cm- 1.4 centimeters (approx)"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n50/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"طول: 1.1-1.4 سانتی‌متر (تقریبی)"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n50/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e1818"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n51">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"Golden plate showing a tulip-shaped flower"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n51">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"لوح طلائی نمایش‌دهنده تصویر یک گل لاله"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n51">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P137F.exemplifies"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5163"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n51">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P43F.has_dimension"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n51/dimension1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n51">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P43F.has_dimension"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n51/dimension2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n51">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P43F.has_dimension"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n51/dimension3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n51">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P44F.has_condition"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n51/condition1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n51">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x10892"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n51">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e221"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n51">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P51F.has_former_or_current_owner"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/legalbody8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n51">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P65F.shows_visual_item"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/image20"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n52">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"Bird shaped plate"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n52">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"شمایلی به شکل پرنده"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n52">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P137F.exemplifies"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x8446"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n52">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P137F.exemplifies"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x9890"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n52">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P44F.has_condition"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n52/condition1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n52">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x11728"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n52">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e223"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n52">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P51F.has_former_or_current_owner"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/legalbody8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n52">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P65F.shows_visual_item"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/image21"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n53">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"Radial rays shaped plate"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n53">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"لوحی به شکل پرتوی نور"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n53">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P137F.exemplifies"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x8446"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n53">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P137F.exemplifies"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x9890"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n53">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P43F.has_dimension"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n53/dimension1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n53">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P43F.has_dimension"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n53/dimension2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n53">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P43F.has_dimension"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n53/dimension3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n53">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P44F.has_condition"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n53/condition1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n53">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x11728"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n53">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e225"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n53">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P51F.has_former_or_current_owner"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/legalbody8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n53">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P65F.shows_visual_item"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/image22"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n55">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"Votive plate with depiction of an eye"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n55">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"لوح نذری با تصویری از یک چشم"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n55">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P137F.exemplifies"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x9890"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n55">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P43F.has_dimension"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n55/dimension1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n55">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P43F.has_dimension"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n55/dimension2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n55">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P43F.has_dimension"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n55/dimension3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n55">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P44F.has_condition"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n55/condition1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n55">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x11728"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n55">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e229"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n55">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P51F.has_former_or_current_owner"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/legalbody8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n55">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P65F.shows_visual_item"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/image30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n56">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"Group of wooden vessels of the ritual deposits"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n56">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"مجموعه‌ای از ظروف چوبی آئینی"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n56">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P137F.exemplifies"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x9862"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n56">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P44F.has_condition"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n56/condition1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n56">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x11988"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n56">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e231"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n56">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P51F.has_former_or_current_owner"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/legalbody8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"Etched carnelian bead"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"مهره عقیق حکاکی شده"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P137F.exemplifies"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5387"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P43F.has_dimension"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n6/dimension1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P44F.has_condition"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n6/condition1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x10643"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e131"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P51F.has_former_or_current_owner"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/legalbody8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P65F.shows_visual_item"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/image5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n7">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"Group of gold in glass beads"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n7">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"مجموعه‌ای از مهره‌های شیشه‌ای تزئین شده با طلا"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n7">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P137F.exemplifies"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5387"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n7">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P43F.has_dimension"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n7/dimension1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n7">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P44F.has_condition"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n7/condition1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n7">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x10879"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n7">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x10892"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n7">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e133"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n7">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P51F.has_former_or_current_owner"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/legalbody8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n7/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"Diameter: 0.65-0.8 centimeters (approx)"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n7/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"قطر: 0.65-0.8 سانتی‌متر (تقریبی)"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n7/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e1751"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n8">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"Gold in glass bead"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n8">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"مهره شیشه‌ای تزئین شده با طلا"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n8">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P137F.exemplifies"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5387"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n8">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P43F.has_dimension"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n8/dimension1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n8">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P44F.has_condition"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n8/condition1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n8">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x10879"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n8">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x10892"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n8">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e135"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n8">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P51F.has_former_or_current_owner"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/legalbody8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n8/condition1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"Apart from the broken rim of the bead, it is in exceptionally good condition (2019 condition
+      report)."
+    </ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n8/condition1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"با وجود اینکه مهره لب‌پر شده است، در مجموع شیء به شکلی استثنائی در وضعیت خوبی است (گزارش وضعیت
+      1397)."
+    </ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n8/condition1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e2299"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n8/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"Diameter: 0.65-0.8 centimeters (approx)"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n8/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"قطر: 0.65-0.8 سانتی‌متر (تقریبی)"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n8/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e1824"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n9">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"Gold in glass bead"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n9">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"مهره شیشه‌ای تزئین شده با طلا"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n9">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P137F.exemplifies"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5387"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n9">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P43F.has_dimension"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n9/dimension1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n9">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P44F.has_condition"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/n9/condition1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n9">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x10879"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n9">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P45F.consists_of"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/x10892"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n9">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e137"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n9">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P51F.has_former_or_current_owner"/>
+    <rdf:value rdf:resource="http://qoqnus.nosa.com/resource/nik/legalbody8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n9/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"Diameter: 0.65-0.8 centimeters (approx)"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n9/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"قطر: 0.65-0.8 سانتی‌متر (تقریبی)"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/n9/dimension1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e1827"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/subject1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P137F.exemplifies"/>
+    <rdf:value rdf:resource="http://collection.britishmuseum.org/id/thesauri/subject"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/subject1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"eye"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/subject1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P1F.is_identified_by"/>
+    <ecrm:P3_has_note>"چشم"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://qoqnus.nosa.com/resource/nik/subject1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/d7ea006b-f719-4930-8618-54f2607eb19b/e1431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cidoc-crm.org/rdfs/cidoc-crm#E39.Actor">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P102F.has_title"/>
+    <ecrm:P3_has_note>"E39 Actor"</ecrm:P3_has_note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cidoc-crm.org/rdfs/cidoc-crm#E39.Actor">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P127F.has_broader_term"/>
+    <rdf:value rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#E21.Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cidoc-crm.org/rdfs/cidoc-crm#E39.Actor">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P2F.has_type"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/25dc57a4-9373-4c77-99b3-65350cf1302c/e1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cidoc-crm.org/rdfs/cidoc-crm#E39.Actor">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/rdfs/cidoc-crm#P48F.has_preferred_identifier"/>
+    <rdf:value rdf:resource="http://www.nosa.com/nhims/resource/826792d2-e435-448d-863d-138ae7735fce/e110039"/>
+  </rdf:Description>
+
+</rdf:RDF>
