@@ -24,7 +24,7 @@ export class JsonToD3Service {
      
     // myD3Data => zoneAwayPromise
                                                           // RDF-XML Eingabedatei
-    this.myD3PromiseObject = this.dataService.xmlToJSON('./assets/rdfOut.xml').then(function (result) {
+    this.myD3PromiseObject = this.dataService.xmlToJSON('./assets/wisski_test.xml').then(function (result) {
 
       console.log(result);
 
